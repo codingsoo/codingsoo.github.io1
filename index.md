@@ -64,4 +64,4 @@ Project: Autonomous driving car with LEGO NXT sensors
 
 ### Email
 
-![email_address](https://github.com/wardballoon/wardballoon.github.io/tree/master/images/email)
+![email_address](https://github.com/wardballoon/wardballoon.github.io/tree/master/images/email.png)
