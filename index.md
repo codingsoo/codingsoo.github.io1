@@ -5,7 +5,7 @@ tags:
   - introduction
 sidebar: home_sidebar
 permalink: index.html
-summary: This is a welcome page for wardballoon's tech blog. This page explains blog concept and categories. The content in this page also contains the blog writer's information .
+summary: This is a welcome page for wardballoon's tech blog. This page explains blog concept and categories. The content in this page also contains the blog writer's information.
 published: true
 ---
 
@@ -35,12 +35,18 @@ I'm attending the last semester of my undergraduates in Kookmin University, Kore
 
 ### Prizes
 
-*	(Dec. 2018) First prize at LINE Blockchain competition. Project: Blockchain-based Secure Energy Trading System Implementation
-* (Nov. 2018) 2nd prize at 2018 KMU Capstone Design Competition. Project: Secure P2P Energy Trading Platform
-*	(July 2018) Best Undergraduate Paper Award at 2018 Korea Computer Congress. Paper: Ethereum Smart Contract Vulnerability Checker
-*	(March 2017) Software Creativity Award (1st prize at software section) from president of Korea Science Foundation. Project: Hero Chatbot
-* (Feb. 2017)	 Encouragement Award (4th prize) from Software-Centered University Council. Project: Virtual Girlfriend Chatbot
-* (Dec. 2013)	Excellence Award (2nd prize) from Kookmin University. Project: Autonomous driving car with LEGO NXT sensors
+*	(Dec. 2018) First prize at LINE Blockchain competition.
+Project: Blockchain-based Secure Energy Trading System Implementation
+* (Nov. 2018) 2nd prize at 2018 KMU Capstone Design Competition.
+Project: Secure P2P Energy Trading Platform
+*	(July 2018) Best Undergraduate Paper Award at 2018 Korea Computer Congress.
+Paper: Ethereum Smart Contract Vulnerability Checker
+*	(March 2017) First prize at software section at president of Korea Science Foundation.
+Project: Hero Chatbot
+* (Feb. 2017)	 4th prize at Software-Centered University Council.
+Project: Virtual Girlfriend Chatbot
+* (Dec. 2013)	2nd prize at Kookmin University.
+Project: Autonomous driving car with LEGO NXT sensors
 
 
 ### Publications
@@ -58,4 +64,4 @@ I'm attending the last semester of my undergraduates in Kookmin University, Kore
 
 ### Email
 
-wardballoon@gmail.com.
+![email_address](https://github.com/wardballoon/wardballoon.github.io/tree/master/images/email)
