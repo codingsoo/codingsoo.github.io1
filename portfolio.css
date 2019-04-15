@@ -5,8 +5,36 @@
     height: 100%;
 }
 
-ul {
+.about-area a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.about-area ul {
     list-style-type: none;
+}
+
+/* SECTION */
+section {
+    padding: 100px 0;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 100px;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 10px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, royalblue, aquamarine);
 }
 
 
