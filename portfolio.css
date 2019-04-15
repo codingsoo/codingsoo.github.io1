@@ -1,5 +1,9 @@
 /* COMMON */
 
+body {
+    word-break: break-all;
+}
+
 .header-area a {
     text-decoration: none;
     font-size: 14px;
@@ -41,7 +45,7 @@ section {
 }
 
 .title::after {
-    content: "";
+    contents: "";
     display: block;
     width: 100px;
     height: 10px;
@@ -192,7 +196,7 @@ section {
 }
 
 
-.services-area > .container > .item > .content {
+.services-area > .container > .item > .contents {
 	font-size: 16px;
 	font-family: 'Noto Sans KR', sans-serif;
 	letter-spacing: 1.5px;
