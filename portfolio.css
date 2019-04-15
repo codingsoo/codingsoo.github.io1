@@ -5,14 +5,6 @@
     font-size: 0;
 }
 
-.about-area, .services-area, .portfolio-area body {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    word-break: break-all;
-    font-family: 'Heebo', sans-serif;
-}
-
 .about-area, .services-area, .portfolio-area img {
     width: 100%;
     height: 100%;
