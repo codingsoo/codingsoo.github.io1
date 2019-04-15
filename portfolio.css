@@ -45,7 +45,7 @@ section {
 }
 
 .title::after {
-    contents: "";
+    content: "";
     display: block;
     width: 100px;
     height: 10px;
@@ -196,7 +196,7 @@ section {
 }
 
 
-.services-area > .container > .item > .contents {
+.services-area > .container > .item > .content {
 	font-size: 16px;
 	font-family: 'Noto Sans KR', sans-serif;
 	letter-spacing: 1.5px;
