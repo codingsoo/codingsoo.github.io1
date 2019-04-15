@@ -1,9 +1,13 @@
 ---
-keywords: wardballoon, wardballoon blog, wardballoon website, Myeongsoo Kim, Myeongsoo Kim Resume, Myeongsoo Kim CV, Myeongsoo Kim About
+title: Welcome to WardBalloon's Blog!
+keywords: wardballoon, wardballoon blog, wardballoon website
 tags:
   - introduction
+sidebar: home_sidebar
 permalink: index.html
+summary: This is a welcome page for wardballoon's tech blog. This page explains blog concept and categories. The content in this page also contains the blog writer's information.
 hide_sidebar: true
+published: true
 ---
 
 ## Blog Introduction
