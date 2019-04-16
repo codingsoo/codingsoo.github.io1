@@ -93,9 +93,8 @@ section {
 
 @media (min-width: 992px) {
 	.about-area > .text {
-		width: calc(60% - 100px);
+		width: calc(70% - 100px);
 		display: inline-block;
-		padding: 0 50px;
 	}
 }
 
