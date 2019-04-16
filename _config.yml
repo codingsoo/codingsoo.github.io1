@@ -102,14 +102,10 @@ defaults:
 
 sidebars:
 - home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
 
 description: "This blog is a tech website which has three main categories; News, Study, Projects. I want to share tech news, IT studies, and my projects."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
 url: https://wardballoon.github.io
-baseurl: 
+baseurl:

@@ -2,21 +2,15 @@
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 topnav:
 - title: Topnav
-  items:
-    - title: GitHub
-      external_url: https://github.com/wardballoon
-    - title: News
-      url: /news
+    items:
+        - title: News
+            url: /news
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Study
+    - title: Category
       folderitems:
-        - title: Jekyll Talk
-          external_url: https://talk.jekyllrb.com
-    - title: Projects
-      folderitems:
-        - title: Jekyll Documentation Theme
-          url: /mydoc_introduction.html
+        - title: Projects
+          url: /
