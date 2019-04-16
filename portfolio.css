@@ -207,14 +207,12 @@ section {
 body{font-family:Open Sans; color:#555555;}
 h1{font-size:24px; font-weight:normal; margin:0.4em 0;}
 
-.container { width: 100%; margin: 0 auto; }
 .container .row { float: left; clear: both; width: 100%; }
 .container .col { float: left; margin: 0 0 1.2em; padding-right: 1.2em; padding-left: 1.2em; }
 .container .col.one, .container .col.two, .container .col.three, .container .col.four, .container .col.five, .container .col.six, .container .col.seven, .container .col.eight, .container .col.nine, .container .col.ten, .container .col.eleven, .container .col.twelve { width: 100%; }
 
 
 @media screen and (min-width: 767px) {
-  .container{width: 100%; max-width: 1080px; margin: 0 auto;}
   .container .row{width:100%; float:left; clear:both;}
   .container .col{float: left; margin: 0 0 1em; padding-right: .5em; padding-left: .5em;}
   .container .col.one { width: 8.33%; }
