@@ -10,9 +10,12 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Category
+    - title: Study
       folderitems:
         - title: C language
           url: /
-        - title: Projects
+
+    - title: Project
+      folderitems:
+        - title: Project 1
           url: /
