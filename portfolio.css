@@ -1,9 +1,5 @@
 /* COMMON */
 
-body {
-    word-break: break-all;
-}
-
 .header-area a {
     text-decoration: none;
     font-size: 14px;
