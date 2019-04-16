@@ -5,23 +5,23 @@ entries:
   levels: one
   folders:
 
-      - title: News
-        output: web
-        folderitems:
-            - title: News
-            url: /news
-            output: web
+  - title: News
+    output: web
+    folderitems:
+    - title: News
+      url: /news.html
+      output: web
 
-        - title: C language
-        output: web
-        folderitems:
-            - title: None
-            url: /news
-            output: web
+  - title: C language
+    output: web
+    folderitems:
+    - title: c_intro
+      url: /news.html
+      output: web
 
-        - title: Projects
-        output: web
-        folderitems:
-            - title: None
-            url: /news
-            output: web
+  - title: Projects
+    output: web
+    folderitems:
+    - title: None
+      url: /news.html
+      output: web
