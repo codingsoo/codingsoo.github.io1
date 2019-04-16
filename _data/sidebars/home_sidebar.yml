@@ -9,19 +9,19 @@ entries:
         output: web
         folderitems:
             - title: News
-            url: /news.html
+            url: /news
             output: web
 
         - title: C language
         output: web
         folderitems:
             - title: None
-            url: /
+            url: /news
             output: web
 
         - title: Projects
         output: web
         folderitems:
             - title: None
-            url: /
+            url: /news
             output: web
