@@ -16,12 +16,12 @@ entries:
     output: web
     folderitems:
     - title: c_intro
-      url: /news.html
+      url: /
       output: web
 
   - title: Projects
     output: web
     folderitems:
     - title: None
-      url: /news.html
+      url: /
       output: web
