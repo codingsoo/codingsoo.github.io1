@@ -39,5 +39,3 @@ I will organize my studies in a way that makes it easier for others to see.
 ### Projects
 
 Among the projects I've worked on, I'm going to post good projects with description and annotation.
-
-{% include links.html %}
