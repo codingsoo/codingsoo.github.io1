@@ -1,8 +1,8 @@
 ---
-title: "Introduction pages"
-tagName: collaboration
+title: "Writer related articles"
+tagName: me
 search: exclude
-permalink: tag_introduction.html
+permalink: tag_me.html
 sidebar: home_sidebar
 folder: tags
 ---

@@ -3,4 +3,4 @@
 # In other words, the last line must be the last tag in the allowed-tags list.
 allowed-tags:
   - introduction
-  - news
+  - me
