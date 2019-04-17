@@ -12,8 +12,8 @@ topnav_dropdowns:
   folders:
     - title: Study
       folderitems:
-        - title: C language
-          url: /
+        - title: Software Architecture
+          url: /intro-software-architecture.html
 
     - title: Project
       folderitems:
