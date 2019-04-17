@@ -38,7 +38,7 @@ The goal of SA is setting certain parameters (design variables) needed to be det
 
 Why do we need software modeling? It makes it easier for team members to understand software clearly and in common, and helps improve the functionality and quality of the software system. These advantages have led to a lot of research and use of modelling languages.
 
-## 4+1 Modeling Views
+### 4+1 Modeling Views
 
 ![modeling_view](https://wardballoon.github.io/images/modeling_view.png)
 
@@ -60,7 +60,7 @@ It is composed of four views (4) and the use case (1) affects participation in a
     + Focus: Use cases for illustrating and validating the architecture.
     + Contents: Use case diagrams.
 
-## Software development process and modeling
+### Software development process and modeling
 
 ![development_process](https://wardballoon.github.io/images/development_process.png)
 In this process, we need to consider the how to design the optimal SW architecture to meet the required functionality and quality/constraints. Thus, it is important to set our mission first. For example, let's consider the SA of a Web Server. What should we consider?
