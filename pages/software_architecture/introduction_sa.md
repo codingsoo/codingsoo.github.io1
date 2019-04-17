@@ -16,8 +16,8 @@ folder: software_architecture
 ![compare_architectures](https://wardballoon.github.io/images/compare_architectures.png)
 SA is usually compared to drawing blueprint in architecture. If you build dog's house, it doesn't matter you have coworkers, blueprint, complex tools, or well-defined process. However, if you want to build your home, you need them all. When it comes to tall buildings, a lot of professionals from various area is needed and we need a central control. Software is the same as architecture. As the software grows in size, so does the software design. Learning SA teaches us how to draw the design of the software by taking into account a variety of things such as scale, Cost, Schedule, Stake holders, Skills and development teams, Materials and technologies, Risks, Development Process, and so on. As software in modern society is becoming more advanced, the importance of software architecture is also being highlighted.
 
-### IEEE Standard on the Recommended Practice for Architectural Descriptions, 2000
-Architecture is the fundamental organization of a system embodied in its components, their relationships to each other and to the environment and the principles guiding its design and evolution.
+### Definition of SA
+Architecture is the fundamental organization of a system embodied in its components, their relationships to each other and to the environment and the principles guiding its design and evolution. [IEEE Standard on the Recommended Practice for Architectural Descriptions, 2000]
 
 ### Objectives of SA
 ![sa_goal](https://wardballoon.github.io/images/sa_goal.png)
@@ -45,20 +45,20 @@ Why do we need software modeling? It makes it easier for team members to underst
 It is composed of four views (4) and the use case (1) affects participation in all four views.
 
 - Logical
-=> Focus: Functional requirements of the system. It describes the requirements expressed in Use Case View to the structure and behavior of the system.
-=> Contents: Class diagrams, Sequence diagrams, Layer diagrams.
+    + Focus: Functional requirements of the system. It describes the requirements expressed in Use Case View to the structure and behavior of the system.
+    + Contents: Class diagrams, Sequence diagrams, Layer diagrams.
 - Implementation
-=> Focus: Static organization of the software in its development environment. It is used by software developers to present UML model elements (Class and Interface) designed in Logical View and Process View as physical software modules.
-=> Contents: Component diagram, Package diagrams.
+    + Focus: Static organization of the software in its development environment. It is used by software developers to present UML model elements (Class and Interface) designed in Logical View and Process View as physical software modules.
+    + Contents: Component diagram, Package diagrams.
 - Process
-=> Focus: Runtime behavior of the system, such as the system processes and communication, concurrency, performance and scalability (Focusing on the behavior by Thread and Process).
-=> Contents: Activity diagrams.
+    + Focus: Runtime behavior of the system, such as the system processes and communication, concurrency, performance and scalability (Focusing on the behavior by Thread and Process).
+    + Contents: Activity diagrams.
 - Deployment
-=> Focus: System Engineer’s perspective, looking at the system topology, deployment and communication. It indicates the hardware to place the UML model elements (Component, Interface) defined in View.
-=> Contents: Deployment diagrams.
+    + Focus: System Engineer’s perspective, looking at the system topology, deployment and communication. It indicates the hardware to place the UML model elements (Component, Interface) defined in View.
+    + Contents: Deployment diagrams.
 - Scenarios
-=> Focus: Use cases for illustrating and validating the architecture.
-=>Contents: Use case diagrams.
+    + Focus: Use cases for illustrating and validating the architecture.
+    + Contents: Use case diagrams.
 
 ## Software development process and modeling
 
