@@ -11,25 +11,26 @@ folder: software_architecture
 
 ## Components and Objectives of Software Architecture (SA)
 
-### Why Do we need SA?
+### Why do we need SA?
 
 ![compare_architectures](https://wardballoon.github.io/images/compare_architectures.png)
-SA is usually compared to drawing blueprint in architecture. If you build dog's house, it doesn't matter you have coworkers, blueprint, complex tools, or well-defined process. However, if you want to build your home, you need them all. When it comes to tall buildings, a lot of professionals from various area is needed and we need a central control. Software is the same as architecture. As the software grows in size, so does the software design. Learning SA teaches us how to draw the design of the software by taking into account a variety of things such as scale, Cost, Schedule, Stake holders, Skills and development teams, Materials and technologies, Risks, Development Process, and so on. As software in modern society is becoming more advanced, the importance of software architecture is also being highlighted.
+
+ SA is usually compared to drawing blueprint in construct architecture. If you build dog's house, it doesn't matter you have coworkers, blueprints, complex tools, or well-defined process. However, if you want to build your home, you need them all. When it comes to tall buildings, a lot of professionals from various area is needed and we need a central control. Same here, as the software grows in size, so does the software design. Learning SA teaches us how to draw the design of the software by taking into account a variety of things such as scale, Cost, Schedule, Stake holders, Skills and development teams, Materials and technologies, Risks, Development Process, and so on. As software in modern society is becoming more advanced, the importance of software architecture is also being highlighted.
 
 ### Definition and Objectives of SA
 
-Software Architecture is the fundamental organization of a system embodied in its components, their relationships to each other and to the environment and the principles guiding its design and evolution. [IEEE Standard on the Recommended Practice for Architectural Descriptions, 2000]
+ Software Architecture is the fundamental organization of a system embodied in its components, their relationships to each other and to the environment and the principles guiding its design and evolution. [IEEE Standard on the Recommended Practice for Architectural Descriptions, 2000]
 
 ![sa_goal](https://wardballoon.github.io/images/sa_goal.png)
 
-The goal of SA is setting certain parameters (design variables) to achieve the best measurable performance (objective function) under given constraints.
+ The goal of SA is setting certain parameters (design variables) to achieve the best measurable performance (objective function) under given constraints.
 
 ### Common Aspects in Software Architecture Problem
 
 - There are multiple solutions to the problem; and the optimal solution is to be identified.
 - There exist one or more objectives to accomplish and a measure of how well these objectives are accomplished (measurable performance).
 - Constraints of different forms (hard, soft) are imposed.
-- There are several key influencing variables. The change of their values will influence (either improve or worsen) the “measurable performance” and the degree of violation of the “constraints.
+- There are several key influencing variables. The change of their values will influence (either improve or worsen) the measurable performance and the degree of violation of the constraints.
 
 ## Software Modeling
 
@@ -37,13 +38,15 @@ The goal of SA is setting certain parameters (design variables) to achieve the b
 
 ![software_pl_shift](https://wardballoon.github.io/images/software_pl_shift.png)
 
-Why do we need software modeling? It makes it easier for team members to understand software clearly and in common, and helps improve the functionality and quality of the software system. These advantages have led to a lot of research and use of modelling languages.
+ Why do we need software modeling? It makes team members to understand software clearly and in common, and helps improve the functionality and quality of the software system. These advantages have led to a lot of research and use of modelling languages.
 
 ### 4+1 Modeling Views
 
+ 4 + 1 Modeling View is an example of the software architecture model.
+
 ![modeling_view](https://wardballoon.github.io/images/modeling_view.png)
 
-It is composed of four views (4) and the use case (1) affects participation in all four views.
+ It is composed of four views (4) and the use case (1) affects participation in all four views.
 
 - Logical
     + Focus: Functional requirements of the system. It describes the requirements expressed in Use Case View to the structure and behavior of the system.
@@ -65,7 +68,7 @@ It is composed of four views (4) and the use case (1) affects participation in a
 
 ![development_process](https://wardballoon.github.io/images/development_process.png)
 
-In this process, we need to consider the how to design the optimal SW architecture to meet the required functionality and quality/constraints. Thus, it is important to set our mission first. For example, let's consider the SA of a Web Server. What should we consider?
+ In this process, we need to consider how to design the optimal SW architecture to meet the required functionality and quality/constraints. Thus, it is important to set our mission first. For example, let's consider the SA of a Web Server. What should we consider?
 
 1. What is the goal?
 2. What is the requirement?
@@ -81,11 +84,12 @@ Maybe, there are more than these. Let's discuss it.
 ### What is it?
 
 ![sa_design_when](https://wardballoon.github.io/images/sa_design_when.png)
-The mission of Architecture Design is to build a model that meets all customer requirements and leads to successful implementation. It defines the relationship between major structural elements of the software. SRS (Requirement modeling and description which have functional / non-functional requirements) should be well-defined so that Elements, Connectors, Constraints, Attributes (advantages and disadvantages of the chosen structure) could be set precisely.
+
+ The mission of Architecture Design is to build a model that meets all customer's requirements and leads to successful implementation. It defines the relationship between major structural elements of the software. SRS (Requirement modeling and description which have functional / non-functional requirements) should be well-defined so that Elements, Connectors, Constraints, Attributes (advantages and disadvantages of the chosen structure) could be set precisely.
 
 ### Who does it for what?
 
-Software architects and designers translate (map) the software system requirements into architecture design. During the translation process, they apply various design strategies to divide and conquer  the complexities of an application domain and resolve the software architecture. By doing this, they reduce risks, helps development teams work together in an orderly fashion, makes the system traceable for implementation and testing, and leads to software products that have higher quality attributes.
+Software architects and designers participate into Architecture Design using the software system requirements. During the translation process, they apply various design strategies to divide and conquer  the complexities of an application domain and resolve the software architecture. By doing this, they reduce risks, helps development teams work together in an orderly fashion, makes the system traceable for implementation and testing, and leads to software products that have higher quality attributes.
 
 ### Quality attributes
 
@@ -112,7 +116,7 @@ Software architects and designers translate (map) the software system requiremen
 
 ### Software Architecture Design Guidelines
 
-This guideline is from Software Architecture and Design Illuminated written by Kai Qian, Xiang Fu, Lixin Tao, Chong-wei Xu.
+ This guideline is from Software Architecture and Design Illuminated written by Kai Qian, Xiang Fu, Lixin Tao, Chong-wei Xu.
 
 - Think of what to do before thinking of how to do it: Functional and nonfunctional requirements should be identified, verified, and validated before architecture and detailed design work is done
 - Think of abstract design before thinking of concrete design: Always start with an abstract design that specifies interfaces of components and abstract data types.
@@ -124,10 +128,9 @@ This guideline is from Software Architecture and Design Illuminated written by K
 
 ### Ways to describe Software Architecture
 
-Software architecture specifies a high level of software system abstraction. It should be able to describe its collection of components and the connections, interact among these components, specify the deployment configuration of all components and connections, and conform to the project's functional and nonfunctional requirements.
+ Software architecture specifies a high level of software system abstraction. It should be able to describe its collection of components and the connections, interact among these components, specify the deployment configuration of all components and connections, and conform to the project's functional and nonfunctional requirements.
 
 - Box-and-line diagram: Boxes=> business concept diagram / Lines=> relationship among components
 - UML: Structural (Static) Diagrams=> Behavioral (Dynamic) Diagrams
-- Architecture View Models: 4+1 view model
-- the logical view, the process view, the development view, the physical view, and the user interface view
+- Architecture View Models: 4+1 view model (logical view, process view, development view, physical view, and the user interface view)
 - Architecture Description Language (ADL): describe software architecture formally and semantically.
