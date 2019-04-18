@@ -16,12 +16,13 @@ folder: software_architecture
 ![compare_architectures](https://wardballoon.github.io/images/compare_architectures.png)
 SA is usually compared to drawing blueprint in architecture. If you build dog's house, it doesn't matter you have coworkers, blueprint, complex tools, or well-defined process. However, if you want to build your home, you need them all. When it comes to tall buildings, a lot of professionals from various area is needed and we need a central control. Software is the same as architecture. As the software grows in size, so does the software design. Learning SA teaches us how to draw the design of the software by taking into account a variety of things such as scale, Cost, Schedule, Stake holders, Skills and development teams, Materials and technologies, Risks, Development Process, and so on. As software in modern society is becoming more advanced, the importance of software architecture is also being highlighted.
 
-### Definition of SA
-Architecture is the fundamental organization of a system embodied in its components, their relationships to each other and to the environment and the principles guiding its design and evolution. [IEEE Standard on the Recommended Practice for Architectural Descriptions, 2000]
+### Definition and Objectives of SA
 
-### Objectives of SA
+Software Architecture is the fundamental organization of a system embodied in its components, their relationships to each other and to the environment and the principles guiding its design and evolution. [IEEE Standard on the Recommended Practice for Architectural Descriptions, 2000]
+
 ![sa_goal](https://wardballoon.github.io/images/sa_goal.png)
-The goal of SA is setting certain parameters (design variables) needed to be determined and achieve the best measurable performance (objective function) under given constraints.
+
+The goal of SA is setting certain parameters (design variables) to achieve the best measurable performance (objective function) under given constraints.
 
 ### Common Aspects in Software Architecture Problem
 
@@ -63,6 +64,7 @@ It is composed of four views (4) and the use case (1) affects participation in a
 ### Software development process and modeling
 
 ![development_process](https://wardballoon.github.io/images/development_process.png)
+
 In this process, we need to consider the how to design the optimal SW architecture to meet the required functionality and quality/constraints. Thus, it is important to set our mission first. For example, let's consider the SA of a Web Server. What should we consider?
 
 1. What is the goal?
@@ -73,3 +75,59 @@ In this process, we need to consider the how to design the optimal SW architectu
 6.  What are the influence factors?
 
 Maybe, there are more than these. Let's discuss it.
+
+## Architecture Design
+
+### What is it?
+
+![sa_design_when](https://wardballoon.github.io/images/sa_design_when.png)
+The mission of Architecture Design is to build a model that meets all customer requirements and leads to successful implementation. It defines the relationship between major structural elements of the software. SRS (Requirement modeling and description which have functional / non-functional requirements) should be well-defined so that Elements, Connectors, Constraints, Attributes (advantages and disadvantages of the chosen structure) could be set precisely.
+
+### Who does it for what?
+
+Software architects and designers translate (map) the software system requirements into architecture design. During the translation process, they apply various design strategies to divide and conquer  the complexities of an application domain and resolve the software architecture. By doing this, they reduce risks, helps development teams work together in an orderly fashion, makes the system traceable for implementation and testing, and leads to software products that have higher quality attributes.
+
+### Quality attributes
+
+- Implementation attributes (not observable at runtime)
+    + Interoperability: universal accessibility and the ability to exchange data among internal components
+    + Maintainability and (functional) extensibility: the ability to modify the system and conveniently extend it.
+    + Testability: the degree to which the system facilitates the establishment of test cases.
+    + Portability: the system's level of independence on software and hardware platforms.
+    + Scalability: a system's ability to adapt to an increase in user requests.
+    + Flexibility: the ease of system modification to cater to different environments or problems for which the system was not originally designed.
+
+- Runtime attributes (observable at runtime)
+    + Availability: a system's capability to be available 24/7.
+    + Security: a system's ability to cope with malicious attacks from outside or inside the system.
+    + Performance: increasing a system's efficiency with regard to response time, throughput, and resource utilization
+    + Usability: the level of human satisfaction from using the system.
+    + Reliability: the failure frequency, the accuracy of output results, the Mean-Time-to-Failure (MTTF), the ability to recover from failure, and the failure predictability.
+    + Maintainability(extensibility, adaptability, serviceability, testability, compatibility, and configurability): the ease of software system change.
+
+- Business attributes
+    + Time to market: the time it takes from requirements analysis to the date a product is released.
+    + Cost: the expense of building, maintaining, and operating the system.
+    + Lifetime: the period of time that the product is live before retirement.
+
+### Software Architecture Design Guidelines
+
+This guideline is from Software Architecture and Design Illuminated written by Kai Qian, Xiang Fu, Lixin Tao, Chong-wei Xu.
+
+- Think of what to do before thinking of how to do it: Functional and nonfunctional requirements should be identified, verified, and validated before architecture and detailed design work is done
+- Think of abstract design before thinking of concrete design: Always start with an abstract design that specifies interfaces of components and abstract data types.
+- Think of nonfunctional requirements early in the design process:When you map functional requirements to an architecture design, you should consider nonfunctional requirements as well.
+- Think of software reusability and extensibility as much as possible: consider how to reuse existing software components to increase the reliability and cost-effectiveness of new systems.
+- Try to promote high cohesion within each element and loose coupling between elements.
+- Tolerate refinement of design: You may need to use prototyping and iteration to refine the design.
+- Avoid ambiguous design and over-detailed design: Ambiguous design lacks constraints and over-detailed design restricts implementation.
+
+### Ways to describe Software Architecture
+
+Software architecture specifies a high level of software system abstraction. It should be able to describe its collection of components and the connections, interact among these components, specify the deployment configuration of all components and connections, and conform to the project's functional and nonfunctional requirements.
+
+- Box-and-line diagram: Boxes=> business concept diagram / Lines=> relationship among components
+- UML: Structural (Static) Diagrams=> Behavioral (Dynamic) Diagrams
+- Architecture View Models: 4+1 view model
+- the logical view, the process view, the development view, the physical view, and the user interface view
+- Architecture Description Language (ADL): describe software architecture formally and semantically.
