@@ -1,7 +1,7 @@
 ---
 title: Introduction of Software Architecture
 keywords: SA, Sorftware Architecture, Introduction of Software Architecture
-last_updated: April 17, 2019
+last_updated: April 18, 2019
 tags: [introduction, software_architecture]
 summary: "This article is an introduction of software architecture. Let's study why this is necessary and why it is important. All this information is from Prof. Eunmi Choi at Kookmin University and Software Architecture in Practice, 3rd Edition."
 sidebar: home_sidebar
