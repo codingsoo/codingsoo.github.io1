@@ -24,8 +24,11 @@ The skillful assignment of responsibilities is very important for changeability 
 ## GRASP patterns
 
 ### Low Coupling
+It is a measurement of how strongly one class is connected to the other classes. If a class has high coupling, the class change force to change related classes. It is also hard to understand and reuse. Lower coupling has the benefit of low dependency and high reusability.
 
 ### High Cohesion
+It is a measurement of how strongly related and focused the responsibilities of a class are. A class with highly related responsibilities, and which does not do a tremendous amount of work, has high cohesion. If a class has low cohesion, it does a lot of unrelated things or does too much work. It makes hard to comprehend, reuse, and maintain. If there are lots of high cohesion classes, it means the classses in the projects are low coupling.
+
 
 ### Expert
 
