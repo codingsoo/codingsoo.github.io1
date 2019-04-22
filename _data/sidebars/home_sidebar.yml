@@ -18,6 +18,9 @@ entries:
     - title: Introduction of Software Architecture
       url: /intro-software-architecture.html
       output: web
+    - title: GRASP pattern
+      url: /grasp.html
+      output: web
 
   - title: Projects
     output: web

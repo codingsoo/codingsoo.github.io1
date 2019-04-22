@@ -1,9 +1,9 @@
 ---
 title: GRASP design principle
 keywords: GRASP,  Architecture
-last_updated: April 19, 2019
+last_updated: April 22, 2019
 tags: [software_architecture, grasp]
-summary: "It it an article that introduces GRASP. It is a concept of object oriented analysis design. In fact, this job should be done before the software architecture design, but it's a necessary process, so I've put it in software architecture category. All this information is from Prof. Eunmi Choi at Kookmin University and Software Architecture in Practice, 3rd Edition."
+summary: "It it an article that introduces GRASP. It is a concept of object oriented analysis design. All this information is from Prof. Eunmi Choi at Kookmin University and Software Architecture in Practice, 3rd Edition."
 sidebar: home_sidebar
 permalink: grasp.html
 folder: software_architecture
