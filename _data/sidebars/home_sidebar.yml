@@ -12,6 +12,13 @@ entries:
       url: /news.html
       output: web
 
+  - title: Psychology
+    output: web
+    folderitems:
+    - title: Psychology as Science
+      url: /psychology-as-science.html
+      output: web
+
   - title: Software Architecture
     output: web
     folderitems:
@@ -20,6 +27,9 @@ entries:
       output: web
     - title: GRASP pattern
       url: /grasp.html
+      output: web
+    - title: Hierarchical Software Architecture
+      url: /hierarchical-software-architecture.html
       output: web
 
   - title: Projects
