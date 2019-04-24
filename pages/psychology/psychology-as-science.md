@@ -3,7 +3,7 @@ title: Psychology as Science
 keywords: psychology, psychology as science, mind and behavior
 last_updated: April 24, 2019
 tags: [psychology, introduction]
-summary: "This is a short introduction of psychology."
+summary: "This is a short introduction of psychology. Prof. Ji Yeon Kim at Kookmin University taught me this class through mind and behavior class."
 sidebar: home_sidebar
 permalink: psychology-as-science.html
 folder: psychology
@@ -21,7 +21,7 @@ The scientific study of the human mind and behaviors. The knowledge in psycholog
 2. Data analysis
 3. Statistically Significant difference THEN-> scientific research
 
-### Example: game and violence
+### Example: video game and violence
 
 ![game_and_violence](https://wardballoon.github.io/images/game_violence.png)
 

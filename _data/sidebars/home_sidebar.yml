@@ -18,6 +18,9 @@ entries:
     - title: Psychology as Science
       url: /psychology-as-science.html
       output: web
+    - title: Psychological Perspectives
+      url: /psychological-perspectives.html
+      output: web
 
   - title: Software Architecture
     output: web
@@ -30,6 +33,9 @@ entries:
       output: web
     - title: Hierarchical Software Architecture
       url: /hierarchical-software-architecture.html
+      output: web
+    - title: Biological Foundations
+      url: /biological-foundations.html
       output: web
 
   - title: Projects
