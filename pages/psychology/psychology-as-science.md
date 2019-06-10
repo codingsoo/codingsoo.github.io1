@@ -3,7 +3,7 @@ title: Psychology as Science
 keywords: psychology, psychology as science, mind and behavior
 last_updated: June 10, 2019
 tags: [psychology, introduction]
-summary: "This is a short introduction of psychology. Prof. Ji Yeon Kim at Kookmin University taught me this class through mind and behavior class."
+summary: "This is a short introduction of psychology. This document is based on a mind-and-behavior class taught by Prof. Ji-Yeon Kim at Kookmin University."
 sidebar: home_sidebar
 permalink: psychology-as-science.html
 folder: psychology
