@@ -39,6 +39,9 @@ entries:
     - title: Intelligence
       url: /psychology-intelligence.html
       output: web
+    - title: Social Psychology
+      url: /social-psychology.html
+      output: web
 
   - title: Software Architecture
     output: web
