@@ -36,6 +36,9 @@ entries:
     - title: Memory
       url: /psychology-memory.html
       output: web
+    - title: Intelligence
+      url: /psychology-intelligence.html
+      output: web
 
   - title: Software Architecture
     output: web
