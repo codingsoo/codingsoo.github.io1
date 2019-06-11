@@ -27,7 +27,7 @@ chemicals that can damage the developing fetus.
 
 ### Inborn reflexes and skills
 
-Reflexes (반사) are responses that are inborn and do not have to be learned. Ex) Babinski reflex- baby’s toes fan out when sole of baby’s foot is stroked. Newborns have reflexes to ensure that they will be fed.
+Reflexes are responses that are inborn and do not have to be learned. Ex) Babinski reflex- baby’s toes fan out when sole of baby’s foot is stroked. Newborns have reflexes to ensure that they will be fed.
 
 - The rooting reflex--when something touches a newborn’s cheek, the infant turns toward that side with an open mouth.
 - The sucking reflex- prompts infants to suck at things that touch their lips
