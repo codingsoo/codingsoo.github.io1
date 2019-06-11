@@ -30,6 +30,9 @@ entries:
     - title: Developmental Psychology
       url: /developmental-psychology.html
       output: web
+    - title: Personality Psychology
+      url: /personality-psychology.html
+      output: web
 
   - title: Software Architecture
     output: web

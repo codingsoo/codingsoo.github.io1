@@ -15,9 +15,28 @@ These are assumptions (beliefs) about human behavior to observe behaviors from a
 
 ## Psychodynamic perspective
 
+This perspective argues that thoughts, wishes, feelings, and early childhood memories that are hidden from awareness decide behaviors. Unconsciousness has a powerful effect on human behavior. Hypnotherapy is one of the most representative cases of this perspective. It cures the unconscious world by lifting ice Berg.
+
 ![freud_iceberg](https://wardballoon.github.io/images/freud_iceberg.png)
 
-This perspective argues that thoughts, wishes, feelings, and early childhood memories that are hidden from awareness decide behaviors. Unconsciousness has a powerful effect on human behavior. Hypnotherapy is one of the most representative cases of this perspective. It cures the unconscious world by lifting ice Berg.
+### Freud’s Path to Developing Psychoanalysis
+
+Sigmund Freud started his career as a physician. He decided to explore how mental and physical symptoms could be caused by purely psychological factors. He became aware that many powerful mental processes operate in the unconscious, without our awareness. This insight grew into a theory of the human personality and its development. His name for his theory and his therapeutic technique: psychoanalysis. He used creative techniques such as free association: encourage the patient to speak whatever comes to mind. The therapist then interprets any potential unconscious wishes hidden in the client’s hesitations, slips of the tongue, and dreams.
+
+### Freud’s Personality/Mind Iceberg
+
+- Id: We start life with a personality made up of the id, striving impulsively to meet basic needs, living by “the pleasure principle.”
+- Ego: In a toddler, an ego develops, a self that has thoughts, judgments, and
+memories following a “reality principle”
+- Superego: Around age 4 or 5, the child develops the superego, a conscience
+internalized from parents and society, following a “morality principle.”
+
+The mind is mostly below the surface of conscious awareness. Personality develops from the efforts of our ego, our rational self, to resolve tension between our id, based in biological drives, and the superego, society’s rules and constraints. The Unconscious, in Freud’s view: A reservoir of thoughts, wishes, feelings, and memories, that are hidden from awareness because they feel unacceptable.
+
+### Freud’s Legacy
+
+- Freud benefitted psychology, giving us ideas about: the impact of childhood on adulthood, defenses, and the tension between our biological selves and our socialized/civilized selves.
+- Freud gave us specific concepts we still use often, such as ego, projection, regression, rationalization, and dream interpretation.
 
 ## Behavioral perspective
 
@@ -61,3 +80,13 @@ Language is also proved that is related to the brain. There are two areas: Broca
 ## Humanistic perspective
 
 This is a perspective that human natural desire for self-realization determines behavior. Anxiety and depression come because of the difference between ideal self and reality.
+
+### Abraham Maslow and Carl Rogers
+
+In Maslow’s view, people are motivated to keep moving up a hierarchy of needs, growing beyond getting basic needs met.
+
+![maslow-hierarchy](https://wardballoon.github.io/images/maslow-hierarchy.png)
+
+- Maslow and Rogers sought to offer a “third force” in psychology: The Humanistic Perspective.
+- They studied healthy people rather than people with mental health problems.
+- Humanism: focusing on the conditions that support healthy personal growth.
