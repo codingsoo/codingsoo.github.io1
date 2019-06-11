@@ -21,6 +21,9 @@ entries:
     - title: Psychological Perspectives
       url: /psychological-perspectives.html
       output: web
+    - title: Attention
+      url: /psychology-attention.html
+      output: web
 
   - title: Software Architecture
     output: web
