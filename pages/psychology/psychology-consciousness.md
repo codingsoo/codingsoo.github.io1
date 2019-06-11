@@ -1,6 +1,6 @@
 ---
-title: Attention
-keywords: psychology, attention
+title: Consciousness
+keywords: psychology, consciousness
 last_updated: June 11, 2019
 tags: [psychology]
 summary: "This article introduces consciousness in psychology. This document is based on a mind-and-behavior class taught by Prof. Ji-Yeon Kim at Kookmin University."

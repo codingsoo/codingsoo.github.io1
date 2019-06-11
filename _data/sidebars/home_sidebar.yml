@@ -27,6 +27,9 @@ entries:
     - title: Consciousness
       url: /psychology-consciousness.html
       output: web
+    - title: Developmental Psychology
+      url: /developmental-psychology.html
+      output: web
 
   - title: Software Architecture
     output: web
