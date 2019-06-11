@@ -45,6 +45,9 @@ entries:
     - title: Adult Attachment
       url: /adult-attachment.html
       output: web
+    - title: Stress
+      url: /stress.html
+      output: web
 
   - title: Software Architecture
     output: web
