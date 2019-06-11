@@ -1,7 +1,7 @@
 ---
 title: Psychological Perspectives
 keywords: psychology, mind and behavior, psychological perspectives
-last_updated: June 10, 2019
+last_updated: June 11, 2019
 tags: [psychology]
 summary: "This article introduces five perspectives in psychology. This document is based on a mind-and-behavior class taught by Prof. Ji-Yeon Kim at Kookmin University."
 sidebar: home_sidebar
@@ -40,9 +40,23 @@ The mind is mostly below the surface of conscious awareness. Personality develop
 
 ## Behavioral perspective
 
+It is famous for Pavlov's dog. This perspective focuses on behaviors, not mental processes. Behavior is explained by previous **learning**. There are three types of learning: Classical Conditioning, Operant Conditioning, Observational learning. This section only shows the simple case — classical conditioning.
+
+### Pavlov's dog
+
 ![pavlov's dog](https://wardballoon.github.io/images/pavlov_dog.png)
 
-It is famous for Pavlov's dog. This perspective focuses on behaviors, not mental processes. Behavior is explained by previous **learning**.
+This study shows Classical Conditioning (Association between stimulus). A Learning process in which an association is made between a previously neutral stimulus (ex:bell) and a stimulus that naturally evokes salivation (ex: food).
+
+### John B. Watson’s Little Albert Experiments
+
+Watson believed that human emotions and behaviors are merely a bundle of conditioned responses.
+
+![albert_experiment](https://wardballoon.github.io/images/albert_experiment.png)
+
+### Behavior Therapy
+
+Like Watson’s Little Albert Experiments, we can associate positive and negative things. Behavior therapy uses the principles of learning, especially classical and operant conditioning, to help reduce unwanted responses.
 
 ## Cognitive perspective
 
