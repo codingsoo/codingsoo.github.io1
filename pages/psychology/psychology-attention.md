@@ -9,55 +9,35 @@ permalink: psychology-attention.html
 folder: psychology
 ---
 
-# Psychological perspective
+## Attention
 
-These are assumptions (beliefs) about human behavior to observe behaviors from a particular perspective. Psychology uses a variety of perspectives when studying how people think, feel, and behave. There are five main perspectives: Psychodynamic, Behavioral, Cognitive, Biological (Neuroscience), Humanistic.
+Attention is the behavioral and cognitive process of focusing conscious awareness on a limited range of experience.
 
-## Psychodynamic perspective
+### Sensation vs Perception
 
-![freud_iceberg](https://wardballoon.github.io/images/freud_iceberg.png)
+- Sensation: Gathering information from the environment via your senses
+- Perception: Understanding what is being sensed
 
-This perspective argues that thoughts, wishes, feelings, and early childhood memories that are hidden from awareness decide behaviors. Unconsciousness has a powerful effect on human behavior. Hypnotherapy is one of the most representative cases of this perspective. It cures the unconscious world by lifting ice Berg.
+![sensation_perception](https://wardballoon.github.io/images/sensation_perception.png)
 
-## Behavioral perspective
+### Processing
 
-![pavlov's dog](https://wardballoon.github.io/images/pavlov_dog.png)
+- Bottom-up processing: Taking sensory information and then assembling and integrating it (What am I seeing?)
+- Top-down processing: using previous knowledge, experience, and expectations to interpret sensory information (Is that something I’ve seen before?)
 
-It is famous for Pavlov's dog. This perspective focuses on behaviors, not mental processes. Behavior is explained by previous **learning**.
+### Gestalt law of organization
 
-## Cognitive perspective
+Gestalt explains the way humans organize bits and pieces of information into meaningful wholes. Below picture shows five Gestalt principle.
 
-This perspective focuses how people think, take in, process, store, and retrieve information. What we think about our situations affects our behavior rather than situation itself. Behavior is explained by how person interprets the situation.
+![gestalt_principle](https://wardballoon.github.io/images/gestalt_principle.png)
 
-## Biological (neuroscience) Perspective
+### Selective Attention
 
-This perspective believes that mind is what brain does. Behavior is dictated by Biology such as hormones, brain chemistry, neurotransmitters, genetics, immune system, and nervous system. For example, the reason why love makes you happy is dopamine, and the reason why you find stability in old love is serotonin. So, bio-psychologists think that psychological characteristics such as personality, intelligence and certain behaviors are determined by our genetic inheritance. In fact, some psychological disorders are results of our genes.
+Selective Attention is an ability to focus on relevant targets while ignoring another. The ability to focus on some parts of the environment and block out others. What we focus on, what we notice.
 
-### Case Study: Phineas Gage
-
-Phineas Gage was a mild and calm railroad worker. One day, metal rod entered through left part of the head, but survived. Complete personality change occurred after the accident: “Gage was no longer Gage.” He became irritable, uncontrollable, and unpredictable. He was the first case to suggest brain’s role in personality — the ability to suppress impulses and to modulate emotions.
-
-### Neurotransmitter
-
-- Dopamine: Motivation and emotional pleasure (- Parkinson’s disease, + Schizophrenia)
-- Serotonin: Mood, sleep and appetite (- depression, anxiety)
-- Endorphins: pain relief, elevation of mood
-- Acetylcholine: Memory, attention, muscle control (- Alzheimer’s disease)
-
-### Brain’s localization
-
-Localization of brain: different parts of the brain are responsible for specific behaviors. As you can see at the Case Study section, frontal Lobe is related to the personality.
-
-![language_localization](https://wardballoon.github.io/images/language_localization.png)
-
-Language is also proved that is related to the brain. There are two areas: Broca’s area and Wernicke’s area. Above picture is the description of this concept.
-
-### Modern day of Measuring brain activity (Brain imaging technique)
-
-- PET Scan: blood flow and chemical activity
-- MRI / fMRI: Map of the brain, amount of oxygen, brain activity
-- EEG: Electric activity (brain wave)
-
-## Humanistic perspective
-
-This is a perspective that human natural desire for self-realization determines behavior. Anxiety and depression come because of the difference between ideal self and reality.
+- ‘Cocktail party’ effect: The ability to focus one’s listening attention to only one voice among mixture of conversation and backgrounds noises
+- Dichotic listening technique: The ability to focus one’s listening attention to only one voice among mixture of two different listening channel
+- Weapon focus effect in eyewitness testimony: Where the witness focuses all their attention on the Weapon being used, they have difficulties Remembering the other details of the event.
+- Inattentional blindness: Various experiments show that when our attention is focused, we miss seeing what others may think is obvious to see
+- Change blindness: A form of inattentional blindness in which a person fails to notice a change (disappearance/the “switch”)
+- Virtual Reality (VR) for pain reduction: Using ‘Selective attention’, applying it to the medical treatment — if your brain is redirected through VR, it reduces your recognition of pain.
