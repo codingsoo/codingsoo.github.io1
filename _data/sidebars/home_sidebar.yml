@@ -24,6 +24,9 @@ entries:
     - title: Attention
       url: /psychology-attention.html
       output: web
+    - title: Consciousness
+      url: /psychology-consciousness.html
+      output: web
 
   - title: Software Architecture
     output: web
