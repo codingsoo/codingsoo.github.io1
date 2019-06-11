@@ -33,6 +33,9 @@ entries:
     - title: Personality Psychology
       url: /personality-psychology.html
       output: web
+    - title: Memory
+      url: /psychology-memory.html
+      output: web
 
   - title: Software Architecture
     output: web
