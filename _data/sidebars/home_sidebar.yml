@@ -48,6 +48,9 @@ entries:
     - title: Stress
       url: /stress.html
       output: web
+    - title: Psychological Disorders
+      url: /psychological-disorders.html
+      output: web
 
   - title: Software Architecture
     output: web
