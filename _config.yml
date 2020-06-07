@@ -1,18 +1,18 @@
-repository: wardballoon/wardballoon.github.io
+repository: codingsoo/codingsoo.github.io
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: WardBalloon's IT Blog
+topnav_title: codingsoo's IT Blog
 # this appears on the top navigation bar next to the home button
 
-site_title: WardBalloon's IT Blog
+site_title: codingsoo's IT Blog
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Georgia Institute of Technology
 # this appears in the footer
 
-github_editme_path: wardballoon/wardballoon.github.io/blob/master/
+github_editme_path: codingsoo/codingsoo.github.io/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -35,9 +35,9 @@ exclude:
   - .gitignore
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: WardBalloon's IT Blog
+feedback_subject_line: codingsoo's IT Blog
 
-feedback_email: wardballoon@gmail.com
+feedback_email: mkim754@gatech.edu
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -107,5 +107,5 @@ description: "This blog is a tech website which has three main categories; News,
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://wardballoon.github.io
+url: https://codingsoo.github.io
 baseurl:
