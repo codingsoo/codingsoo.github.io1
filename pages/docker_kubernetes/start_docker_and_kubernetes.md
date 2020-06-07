@@ -19,13 +19,13 @@ A lot of companies (Google, IBM, Slack...) started to use Kubernetes, and the ne
 
 What brought it into the spotlight? Let's figure it out!
 
-### On-premise vs Microservice.
+### On-premise vs Microservice
 
-![compare-monolithic-and-microservice](images/kubernetes/compare_monolithic_microservice.png "https://aws.amazon.com/ko/microservices/")
+![compare-monolithic-and-microservice](images/kubernetes/compare-monolithic-microservice.png "https://aws.amazon.com/ko/microservices")
 
 Traditionally, on-premise software has monolithic architecture which means all components are combined into one service. If you want to scale the monolithic architectured software, you should copy all of the components to other server computer. For example, even if you only want to scale user account system, you should copy the whole system because you cannot detach only user account system. Also, it is hard to deal with library conflicts because they are all in the same environment. Lastly, you should build all the components and run them even if you edited small parts of the software.
 
-![build-test-comparison](iimages/kubernetes/build-test-comparison.png "https://blog.lqcns.com/1278")
+![build-test-comparison](images/kubernetes/build-test-comparison.png "https://blog.lqcns.com/1278")
 
 On the other hand, microservice architecture easily allows to set different dependencies for each component and also allows component specific scaling. Building and testing process is much simpler than monolithic architecture.
 Then, does Microservice only have advantages? No!
@@ -37,7 +37,7 @@ Let's study them now~
 
 We now know the benefits of MSA. In MSA, there are two big deployment types.
 
-![container_evolution](iimages/kubernetes/container_evolution.svg "https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/")
+![container_evolution](images/kubernetes/container-evolution.svg "https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/")
 
 The biggest difference is virtualized deployment has hardware virtualization part, so it is much slower than container deployment. Studies showed that Docker only loss about 1% of performance, but Virtual Machine (VM) loss more than 50%.
 
