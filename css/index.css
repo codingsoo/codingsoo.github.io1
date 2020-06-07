@@ -197,3 +197,166 @@ section {
 	letter-spacing: 1.5px;
 	padding: 10px 0;
 }
+
+/* PORTFOLIO AREA */
+.portfolio-area {
+	height: auto;
+}
+
+.portfolio-area > .filter > .list {
+	text-align: center;
+}
+
+.portfolio-area > .filter > .list > .listItem {
+	display: inline-block;
+	font-weight: bold;
+	padding: 0 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.portfolio-area > .filter > .list > .listItem:hover,
+.portfolio-area > .filter > .list > .listItem.active {
+	color: royalblue;
+}
+
+.portfolio-area > .container {
+	padding-top: 50px;
+}
+
+.portfolio-area > .container > .filterItem {
+	display: none;
+	width: calc(100% - 40px);
+	margin: 20px;
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+	.portfolio-area > .container > .filterItem {
+		width: calc(50% - 40px);
+	}
+}
+
+.portfolio-area > .container > .filterItem.show {
+	display: inline-block;
+}
+
+.portfolio-area > .container > .filterItem > .image {
+	position: relative;
+	max-height: 700px;
+}
+
+@media (min-width: 992px) {
+	.portfolio-area > .container > .filterItem > .image {
+		height: 300px;
+	}
+}
+
+.portfolio-area > .container > .filterItem > .image > .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.portfolio-area > .container > .filterItem > .image:hover > .overlay {
+	background-image: linear-gradient(to right, royalblue , aquamarine);
+	opacity: 0.9;
+}
+
+.portfolio-area > .container > .filterItem > .image > .overlay > i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 48px;
+}
+
+.portfolio-area > .container > .filterItem > .image > img {
+	border-radius: 5px;
+}
+
+.portfolio-area > .container > .filterItem > .main {
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.portfolio-area > .container > .filterItem > .sub {
+	font-size: 16px;
+	color: #777;
+}
+
+.portfolio-area > .container > .filterItem > .text {
+	display: none;
+}
+
+#portfolioModal {
+	display: none;
+	position: fixed; 
+	z-index: 100;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.9);
+	text-align: center;
+	overflow: hidden;
+}
+
+#portfolioModal > .close {
+	display: block;
+	text-align: right;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+	cursor: pointer;
+	padding: 0 20px;
+}
+
+#portfolioModal > .close:hover,
+#portfolioModal > .close:focus {
+	color: #bbb;
+}
+
+#portfolioModal > .container {
+	width: 100%;
+	height: auto;
+}
+
+#portfolioModal > .container > img {
+	width: calc(100% - 40px);
+	padding: 20px;
+}
+
+@media (min-width: 992px) {
+	#portfolioModal > .container > img {
+		max-width: 700px;
+	}
+}
+
+#portfolioModal > .container > .modal-main {
+	position: relative;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	padding: 10px 0;
+}
+
+#portfolioModal > .container > .modal-sub {
+	font-size: 20px;
+	color: white;
+	padding: 10px 0;
+}
+
+#portfolioModal > .container > .modal-text {
+	font-size: 16px;
+	color: #bbb;
+}
