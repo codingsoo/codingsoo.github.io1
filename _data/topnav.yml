@@ -12,12 +12,5 @@ topnav_dropdowns:
   folders:
     - title: Study
       folderitems:
-        - title: Psychology
-          url: /psychology-as-science.html
-        - title: Software Architecture
-          url: /intro-software-architecture.html
-
-    - title: Project
-      folderitems:
-        - title: Project 1
-          url: /
+        - title: Kubernetes
+          url: /test.html
