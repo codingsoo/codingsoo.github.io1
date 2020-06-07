@@ -1,13 +1,14 @@
 ---
-title: Adult Attachment
-keywords: psychology, adult attachment
-last_updated: June 12, 2019
-tags: [psychology]
-summary: "This article introduces adult attachment. This document is based on a mind-and-behavior class taught by Prof. Ji-Yeon Kim at Kookmin University."
+title: Testpage
+keywords: test
+last_updated: June 7, 2020
+tags: [codingsoo]
+summary: "test test"
 sidebar: home_sidebar
-permalink: adult-attachment.html
-folder: psychology
+permalink: test.html
+folder: kubernetes
 ---
+# TTT
 
 ## Adult Attachment
 

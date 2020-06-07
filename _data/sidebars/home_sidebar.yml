@@ -12,65 +12,9 @@ entries:
       url: /news.html
       output: web
 
-  - title: Psychology
+  - title: Kubernetes
     output: web
     folderitems:
-    - title: Psychology as Science
-      url: /psychology-as-science.html
-      output: web
-    - title: Psychological Perspectives
-      url: /psychological-perspectives.html
-      output: web
-    - title: Attention
-      url: /psychology-attention.html
-      output: web
-    - title: Consciousness
-      url: /psychology-consciousness.html
-      output: web
-    - title: Developmental Psychology
-      url: /developmental-psychology.html
-      output: web
-    - title: Personality Psychology
-      url: /personality-psychology.html
-      output: web
-    - title: Memory
-      url: /psychology-memory.html
-      output: web
-    - title: Intelligence
-      url: /psychology-intelligence.html
-      output: web
-    - title: Social Psychology
-      url: /social-psychology.html
-      output: web
-    - title: Adult Attachment
-      url: /adult-attachment.html
-      output: web
-    - title: Stress
-      url: /stress.html
-      output: web
-    - title: Psychological Disorders
-      url: /psychological-disorders.html
-      output: web
-
-  - title: Software Architecture
-    output: web
-    folderitems:
-    - title: Introduction of Software Architecture
-      url: /intro-software-architecture.html
-      output: web
-    - title: GRASP pattern
-      url: /grasp.html
-      output: web
-    - title: Hierarchical Software Architecture
-      url: /hierarchical-software-architecture.html
-      output: web
-    - title: Biological Foundations
-      url: /biological-foundations.html
-      output: web
-
-  - title: Projects
-    output: web
-    folderitems:
-    - title: None
-      url: /
+    - title: Test1
+      url: /test.html
       output: web
