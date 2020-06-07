@@ -1,6 +1,6 @@
 ---
 title: Start docker and kubernetes
-keywords: test
+keywords: linux container, LXC, docker, kubernetes, microservice,  MSA
 last_updated: June 7, 2020
 tags: [docker, kubernetes]
 summary: "Let's start docker and kubernetes! Reference: https://www.notion.so/3f5794b5aafe44e7835e55e70c8debf5 (Korean)"
@@ -41,27 +41,27 @@ We now know the benefits of MSA. In MSA, there are two big deployment types.
 
 The biggest difference is virtualized deployment has hardware virtualization part, so it is much slower than container deployment. Studies showed that Docker only loss about 1% of performance, but Virtual Machine (VM) loss more than 50%.
 
-### Container and Kubernetes
+### Conclusion
 
-Kubernetes have great features for managing Containers. 
+Linux Container(LXC) provides light-weight isolated environment. Docker can manage LXCs. Kubernetes is able to manage LXCs and Dockers.
 
 ## Microservice Understanding
 
-### Container
+### LXC
 
-Container allows us to have isolated system.Linux provide Container uses Linux Namespace and Linux Control Group. Linux Namespace makes independent environment for each process and Linux Control Group can control resources (RAM, CPU, ...) for each process. 
+LXC allows us to have isolated system.Linux provide LXC uses Linux Namespace and Linux Control Group. Linux Namespace makes independent environment for each process and Linux Control Group can control resources (RAM, CPU, ...) for each process. 
 
 ### Docker
 
-Docker is the most famous framework which manage Containers. It supports various OSs (Linux, Windows, Mac, ...) and provides Containerd which manages containers.
-We can build images with program, library, and source code. With the image, we can build Containers.
+Docker is the most famous framework which manage LXCs. It supports various OSs (Linux, Windows, Mac, ...) and provides Containerd which manages LXCs.
+We can build images with program, library, and source code. With the image, we can build LXCs.
 Docker provides powerful interface for this process. We will study this in the next lecture.
-However, even if we use Docker, it is hard to manage all the Containers if the service is large. 
+However, even if we use Docker, it is hard to manage all the LXCs if the service is large. 
 We have solution! Kubernetes!
 
 ### Kubernetes
 
-Kubernetes is developed by Google with Go laungage. It helps to control large quantities of Dockers and Containers.
+Kubernetes is developed by Google with Go laungage. It helps to control large quantities of Dockers and LXCs.
 
 ### DevOps
 
