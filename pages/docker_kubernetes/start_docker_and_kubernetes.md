@@ -13,7 +13,9 @@ folder: kubernetes
 
 With the MicroService Architecture(MSA) gaining popularity, the popularity of Kubernetes is also growing steeply.
 A lot of companies (Google, IBM, Slack...) started to use Kubernetes, so the need of Kubernetes developer is increasing every year as well.
+
 ![kubernetes-permenant-demand-trend](images/kubernetes/permanent-demand-trend.png "https://www.itjobswatch.co.uk/jobs/uk/kubernetes.do")
+
 What brought it into the spotlight?
 Let's figure it out!
 

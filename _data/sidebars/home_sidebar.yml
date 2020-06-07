@@ -15,6 +15,6 @@ entries:
   - title: Kubernetes
     output: web
     folderitems:
-    - title: Test1
-      url: /test.html
+    - title: Start Docker and Kubernetes
+      url: /start-docker-and-kubernetes.html
       output: web
