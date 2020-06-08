@@ -76,7 +76,7 @@ sudo docker tag xxx 127.0.0.1:5000/xxx
 sudo docker push 127.0.0.1:5000/xxx
 ```
 
-If you need authentication information, visit https://docs.docker.com/registry/configuration/#auth / https://github.com/collabnix/dockerlabs/blob/9f8999b55efcbd2c1ddbba2aa7eab03d7b56e21e/intermediate/registry/part-3.md
+If you need authentication information, visit [here](https://docs.docker.com/registry/configuration/#auth / https://github.com/collabnix/dockerlabs/blob/9f8999b55efcbd2c1ddbba2aa7eab03d7b56e21e/intermediate/registry/part-3.md)
 
 ### Cheatsheet
 
