@@ -45,8 +45,8 @@ Therefore, LXC based deployment is becoming more popular.
 
 ### Relationship between LXC and Kubernetes
 
-LXC provides light-weight isolated environment, but if you need hundreds of LXCs, it might be hard to handle them one by one.
-In this case, Docker helps you use many LXCs easily. 
+LXC provides light-weight isolated environment, but if you need hundreds of LXC, it might be hard to handle them one by one.
+In this case, Docker helps you use many LXC easily. 
 However, nowadays, systems are getting bigger and bigger too. You can easily see companies manage hundreds of Dockers.
 Kubernetes allows us to manage lots of Dockers easily.
 
@@ -54,11 +54,10 @@ Kubernetes allows us to manage lots of Dockers easily.
 
 ### LXC
 
-LXC allows us to have isolated system. Linux provide LXC using Linux Namespace and Linux Control Group. Linux Namespace makes independent environment for each process and Linux Control Group can control resources (RAM, CPU, ...) for each process. You can get more information through this [link](https://linuxcontainers.org/lxc/getting-started/), but you don't need to study them to use Kubernetes and Docker. They provide much more convinient and powerful client for users.
-
+LXC allows us to have isolated system. Linux provide LXC using Linux Namespace and Linux Control Group. Linux Namespace makes independent environment for each process and Linux Control Group can control resources (RAM, CPU, ...) for each process. You can get more information through this [link](https://linuxcontainers.org/lxc/getting-started/), but you don't need to study them to use Kubernetes and Docker.
 ### Docker
 
-Docker is a very famous framework which manage LXCs. It supports various OSs (Linux, Windows, Mac, ...) and a powerful client.
+Docker is a very famous framework for managing LXC. It supports various OSs (Linux, Windows, Mac, ...) and a powerful client.
 We can build images with program, library, and source code. With the image, we can build a LXC.
 Docker provides powerful interface for this process. We will study this in the next lecture.
 

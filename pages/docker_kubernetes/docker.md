@@ -1,11 +1,11 @@
 ---
-title: Basic of Docker
+title: Docker
 keywords: docker
-last_updated: June 7, 2020
+last_updated: June 8, 2020
 tags: [docker]
-summary: "Let's start docker basic!"
+summary: "Let's start Docker!"
 sidebar: home_sidebar
-permalink: docker-basic.html
+permalink: docker.html
 folder: kubernetes
 ---
 
@@ -13,22 +13,30 @@ folder: kubernetes
 
 ### Introduction
 
-Docker is an open platform for developing, shipping, and running applications. Docker enables you to manage Linux Containers, so you can ship, test, and deploy code quickly in the isolated environment.
+Docker is an open platform for developing, shipping, and running applications using LXC (Linux Containers). 
 
 ![docker-architecture](images/kubernetes/docker-architecture.svg "https://docs.docker.com/get-started/overview/")
 
-You can pull or build images and run them in the Containers. 
+You can pull and build images, and run them using LXC. 
 There are lots of pre-built images in DockerHub.
-You can also upload your image to DockerHub privately/publically.
+You can also upload your image to DockerHub privately or publically.
 You can manage this process through Docker client.
-You can start docker through this link: https://docs.docker.com/get-started/overview/
-You can study docker deeply through this link: https://dockerlabs.collabnix.com/
 
-### Docker Image Structure
+### What is the Docker image?
+
+Docker image is a pre-built read-only environment which can run on the Docker platform as a container.
+You can use pre-built images from DockerHub or build your own images.
+The usual process is
+
+1. Build your own image based on other pre-built images using Dockerfile.
+2. Run your application in containers using your image.
+3. Before important update, commit the changes to a Docker image.
+4. If update failed, rollback using the committed Docker image.
+
 
 ![docker-image-layer](images/kubernetes/docker-image-layer.jpg "https://stackoverflow.com/questions/55174274/understanding-docker-layers-and-future-changes")
 
-Docker image has layered architecture for removing duplications. For example, if image A and image B have common part, we can build it once and use it separately instead of building the common part separately. You can check the layer information using "docker inspect" command. The layers are stored in the overlay2 directory.
+Docker image has layered architecture to romove duplications. For example, if image A and image B have common part, we can build the common part once and use it separately instead of building the common part separately. You can check the layer information using "docker inspect" command. The layers are stored in the overlay2 directory.
 
 ### Dockerfile
 
@@ -121,3 +129,8 @@ sudo docker history [image name]
 # Make an image using container
 sudo docker commit [container name] [image name]
 ```
+
+### Further Studying Materials
+
+1. https://dockerlabs.collabnix.com/
+2. https://docs.docker.com/get-started/overview/

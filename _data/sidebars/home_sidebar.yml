@@ -18,8 +18,8 @@ entries:
     - title: Kubernetes introduction
       url: /kubernetes-introduction.html
       output: web
-    - title: Docker Basic
-      url: /docker-basic.html
+    - title: Docker
+      url: /docker.html
       output: web
     - title: Kubernetes Basic
       url: /kubernetes-basic.html
