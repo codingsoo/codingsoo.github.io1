@@ -22,5 +22,5 @@ entries:
       url: /docker.html
       output: web
     - title: Kubernetes Basic
-      url: /kubernetes-basic.html
+      url: /kubernetes.html
       output: web

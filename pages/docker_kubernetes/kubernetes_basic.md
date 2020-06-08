@@ -3,15 +3,17 @@ title: Basic of Kubernetes
 keywords: kubernetes
 last_updated: June 8, 2020
 tags: [kubernetes]
-summary: "Let's start kubernetes basic! Reference: https://www.notion.so/3f5794b5aafe44e7835e55e70c8debf5 (Korean)"
+summary: "Let's start Kubernetes!"
 sidebar: home_sidebar
-permalink: kubernetes-basic.html
+permalink: kubernetes.html
 folder: kubernetes
 ---
 
 ## Kubernetes
 
 ### Introduction
+
+https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
 
 We learned Docker enables to manage Containers easily. In the similar way, Kubernetes can manage Dockers conveniently. Kubernetes can treat lots of nodes as one big computer. 
 
