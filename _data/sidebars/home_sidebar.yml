@@ -15,9 +15,12 @@ entries:
   - title: Kubernetes
     output: web
     folderitems:
-    - title: Start Docker and Kubernetes
-      url: /start-docker-and-kubernetes.html
+    - title: Kubernetes introduction
+      url: /kubernetes-introduction.html
       output: web
     - title: Docker Basic
       url: /docker-basic.html
+      output: web
+    - title: Kubernetes Basic
+      url: /kubernetes-basic.html
       output: web

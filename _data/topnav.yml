@@ -13,4 +13,4 @@ topnav_dropdowns:
     - title: Study
       folderitems:
         - title: Kubernetes
-          url: /start-docker-and-kubernetes.html
+          url: /kubernetes-introduction.html
