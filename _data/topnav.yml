@@ -14,3 +14,7 @@ topnav_dropdowns:
       folderitems:
         - title: Kubernetes
           url: /kubernetes-introduction.html
+    - title: Diary
+      folderitems:
+        - title: June 2020
+          url: /june-2020.html

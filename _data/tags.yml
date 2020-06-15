@@ -6,3 +6,4 @@ allowed-tags:
   - kubernetes
   - docker
   - lxc
+  - diary

@@ -24,3 +24,9 @@ entries:
     - title: Kubernetes Basic
       url: /kubernetes.html
       output: web
+  - title: Diary
+    output: web
+    folderitems:
+    - title: June 2020
+      url: /june-2020.html
+      output: web
