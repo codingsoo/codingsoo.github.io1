@@ -13,8 +13,6 @@ folder: kubernetes
 
 ### Introduction
 
-https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
-
 We learned Docker enables to manage Containers easily. In the similar way, Kubernetes can manage Dockers conveniently. Kubernetes can treat lots of nodes as one big computer. 
 
 ![kubernetes-architecture](images/kubernetes/k8s-architecture.png "https://dockerlabs.collabnix.com/kubernetes/beginners/what-is-kubernetes/#what-is-kubernetes")
@@ -72,7 +70,7 @@ When the initialization is finished, You might see two configuration instruction
 1. To start using your cluster, you need to run the following as a regular user: [content 1]
 2. Then you can join any number of worker nodes by running the following on each as root: [content 2]
 
-Copy and paste [content 1] to master node in regular user terminal and [content 2] to work node in root user terminal.
+Copy and paste [content 1] to master node in user terminal and [content 2] to work node in root user terminal.
 
 If you want to join another work nodes, type "kubeadm token create --print-join-command" on your master node to get [content 2] again.
 
@@ -95,4 +93,57 @@ kubeadm reset
 
 # Deploy kubernetes
 kubectl create deploy [app name] --image=[docker image name]
+
+# Expose application (you need load balancer)
+kubectl expose deployment [service name] --port=[port number] --type=LoadBalancer
+
+# get all pods' information
+kubectl get pod -o wide
+
+# get a pod's details
+kubectl describe pod [pod name]
+
+# Delete all pods, services, deployments, replica sets
+kubectl delete all --all
+
+# Get kube system pods
+kubectl get pod -n kube-system
+
+# Get pod information in yaml format
+kubectl get pod [pod name] -o yaml
+
+# Port forwarding
+kubectl port-forward [pod name] 8080:8080
+
+# Get pod explanation
+kubectl explain pods
+
+# Create pod using yaml file
+kubectl create -f [yaml file name]
+
+# Delete pod using yaml file
+kubectl delete -f [yaml file name]
+
+# Write annotation
+kubectl annotate pod [pod name] [key]=[value]
+
+# Execute pod
+kubectl exec -it [pod name] -- /bin/bash
+
+# Add label
+kubernetes label pod [pod name] [key]=[value] [--overwrite]
+
+# Show pod's label
+kubectl get pod --show-label
+
+# Search label filtered pods
+kubectl get pod -L '[label name]'
+kubectl get pod -L '[!label name]'
+kubectl get pod -L '[label name=key name,label name=key name]'
+
+replica set
+
+rollout
+
+loadbalance node port ingress
 ```
